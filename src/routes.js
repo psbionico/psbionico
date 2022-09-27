@@ -18,6 +18,6 @@ const usuario = Usuario(req.body)
 
 await usuario.save()
 
-res.send("Guardado");
+res.redirect("/");
 });
 export default router;
